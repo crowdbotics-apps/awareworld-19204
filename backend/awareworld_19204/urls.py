@@ -33,6 +33,11 @@ urlpatterns = [
     path("api/v1/", include("event.api.v1.urls")),
     path("event/", include("event.urls")),
     path("home/", include("home.urls")),
+    path("api/v1/", include("chat.api.v1.urls")),
+    path("chat/", include("chat.urls")),
+    path("api/v1/", include("chat_user_profile.api.v1.urls")),
+    path("chat_user_profile/", include("chat_user_profile.urls")),
+    path("api/v1/", include("users.api.v1.urls")),
 ]
 
 admin.site.site_header = "AwareWorld"

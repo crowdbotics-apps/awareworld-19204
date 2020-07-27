@@ -46,6 +46,8 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "django.contrib.sites",
     "event",
+    "chat",
+    "chat_user_profile",
 ]
 LOCAL_APPS = [
     "home",
